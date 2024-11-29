@@ -1,4 +1,4 @@
 package dev.razafindratelo.timeTabler.elements;
 
-public class Element {
+public sealed interface Element permits Course, Group, Location, Room, Slot, Teacher, CourseMap {
 }

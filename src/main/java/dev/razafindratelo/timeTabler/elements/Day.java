@@ -16,7 +16,7 @@ public class Day {
 
 
     private enum DayType {
-        DAY_OFF, OPE,_DAY
+        DAY_OFF, OPEN_DAY
     }
 
     @Override

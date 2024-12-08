@@ -4,14 +4,17 @@ import dev.razafindratelo.timeTabler.elements.Group;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import java.util.Set;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 
 @Data
 @EqualsAndHashCode
 @AllArgsConstructor
+@NoArgsConstructor
 public final class G implements Sets {
-    private Set<Group> groups;
+    private List<Group> groups;
 
     @Override
     public String toString() {

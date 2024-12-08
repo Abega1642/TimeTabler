@@ -4,13 +4,16 @@ import dev.razafindratelo.timeTabler.elements.Teacher;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import java.util.Set;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 @Data
 @EqualsAndHashCode
 @AllArgsConstructor
+@NoArgsConstructor
 public final class T implements Sets{
-    private Set<Teacher> teachers;
+    private List<Teacher> teachers;
 
     @Override
     public String toString() {

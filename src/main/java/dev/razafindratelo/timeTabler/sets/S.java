@@ -4,13 +4,16 @@ import dev.razafindratelo.timeTabler.elements.Slot;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import java.util.Set;
+import lombok.NoArgsConstructor;
+import java.util.List;
+
 
 @Data
 @EqualsAndHashCode
 @AllArgsConstructor
+@NoArgsConstructor
 public final class S implements Sets {
-    private Set<Slot> slots;
+    private List<Slot> slots;
 
     @Override
     public String toString() {

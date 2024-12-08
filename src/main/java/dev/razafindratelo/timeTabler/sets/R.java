@@ -4,13 +4,13 @@ import dev.razafindratelo.timeTabler.elements.Room;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import java.util.Set;
+import java.util.List;
 
 @Data
 @EqualsAndHashCode
 @AllArgsConstructor
 public final class R implements Sets {
-    private Set<Room> rooms;
+    private List<Room> rooms;
 
     @Override
     public String toString() {

@@ -4,14 +4,17 @@ import dev.razafindratelo.timeTabler.elements.CourseMap;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
-import java.util.Set;
+import java.util.List;
+
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode
 public final class CM implements Sets {
-    private Set<CourseMap> courseMaps;
+    private List<CourseMap> courseMaps;
 
     @Override
     public String toString() {
